@@ -1,69 +1,56 @@
-# Welcome to your Lovable project
+ExplainX - AI Document Assistant
 
-## Project info
+ExplainX is an AI-powered document assistant that allows users to upload, analyze, and ask questions about their documents. It supports PDF, Word, and Excel files, providing instant insights and responses using AI.
 
-**URL**: https://lovable.dev/projects/29af1260-5b01-41f3-aa54-051ffcfa5507
+Features
 
-## How can I edit this code?
+📄 Upload and analyze documents (PDF, DOCX, XLSX)
 
-There are several ways of editing your application.
+🔍 Ask AI-powered questions about your documents
 
-**Use Lovable**
+💬 Chat interface for interactive conversations
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/29af1260-5b01-41f3-aa54-051ffcfa5507) and start prompting.
+📊 Categorized document types for easy access
 
-Changes made via Lovable will be committed automatically to this repo.
+Installation
 
-**Use your preferred IDE**
+Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Ensure you have the following installed:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Node.js (latest LTS recommended)
 
-Follow these steps:
+Vite (for frontend development)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Steps to Run
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Clone the repository:
 
-# Step 3: Install the necessary dependencies.
-npm i
+git clone https://github.com/your-repo/explainx-chatbox.git
+cd explainx-chatbox
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Install dependencies:
+
+npm install
+
+Start the development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+The app will be available at http://localhost:8080
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+To build for production:
 
-**Use GitHub Codespaces**
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Tech Stack
 
-## What technologies are used for this project?
+Frontend: React + Vite + TailwindCSS
 
-This project is built with .
+Backend: Node.js (if applicable)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+AI Integration: OpenAI API / Custom LLM
 
-## How can I deploy this project?
+Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/29af1260-5b01-41f3-aa54-051ffcfa5507) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Feel free to submit pull requests or issues. Contributions are welcome! 😊
